@@ -8,6 +8,8 @@ namespace SharpCommand.Example
 	{
 		static void Main(string[] args)
 		{
+			Console.ReadKey(true);
+
 			// set color
 			Console.BackgroundColor = ConsoleColor.Black;
 			Console.ForegroundColor = ConsoleColor.White;

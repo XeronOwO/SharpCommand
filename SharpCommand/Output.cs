@@ -82,9 +82,16 @@ namespace SharpCommand
 				return;
 			}
 
-			foreach (var ch in str)
+			if (enableColor)
 			{
-				Print(ch, enableColor, colorChar, ref colorStep);
+				foreach (var ch in str)
+				{
+					Print(ch, enableColor, colorChar, ref colorStep);
+				}
+			}
+			else
+			{
+				Console.Out.Write(str);
 			}
 		}
 

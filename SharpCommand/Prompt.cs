@@ -345,9 +345,9 @@ namespace SharpCommand
 			}
 			else // normal input
 			{
-				_inputContent += key.KeyChar;
-
 				RenderAppend(key.KeyChar);
+
+				_inputContent += key.KeyChar;
 			}
 		}
 
