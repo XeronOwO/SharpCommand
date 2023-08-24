@@ -121,7 +121,7 @@ help	- display help
 		private static string[] _commands = new string[]
 		{
 			"/gamemode",
-			"/gameruld",
+			"/gamerule",
 			"/give",
 		};
 

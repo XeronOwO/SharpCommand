@@ -4,6 +4,25 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 		<LangVersion>9.0</LangVersion>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<Title>SharpCommand</Title>
+		<Description>A simple console tool written in CSharp that provides functionality to interact with users.</Description>
+		<PackageProjectUrl>https://github.com/XeronOwO/SharpCommand</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/XeronOwO/SharpCommand</RepositoryUrl>
+		<PackageTags>CSharp;Command;Prompt;SharpCommand</PackageTags>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
